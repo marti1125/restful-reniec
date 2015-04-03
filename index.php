@@ -6,9 +6,9 @@ header('content-type: application/json; charset=utf-8');
 //Conexión a base de datos Mysql
 
 $host = 'localhost';
-$username= 'root_restful';
-$password = '159RootRestful';
-$db_name = 'restful';
+$username= 'root';
+$password = 'mysql';
+$db_name = 'reniec';
 
 $db=mysql_connect($host, $username, $password) or die('No se puedo conectar a la base de datos...');
 
